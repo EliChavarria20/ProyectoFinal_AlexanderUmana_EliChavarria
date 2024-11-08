@@ -148,7 +148,7 @@ public class LoginGUI extends JFrame {
         try {
             // Conectar a la base de datos MySQL
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root",
-                    "Francisco20.");
+                    "Aiug01042004*");
 
             // Llamar al procedimiento almacenado para validar el usuario
             String query = "{CALL ValidarUsuario(?, ?)}"; // Llamada al procedimiento almacenado

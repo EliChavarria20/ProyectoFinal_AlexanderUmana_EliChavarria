@@ -108,7 +108,7 @@ public class ActualizarVehiculo extends JFrame {
         String idMarca = txtIdMarca.getText();
         String ano = txtAno.getText();
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*")) {
             String query = "{CALL ActualizarVehiculo(?, ?, ?, ?)}"; // Llamada al procedimiento almacenado
             CallableStatement statement = connection.prepareCall(query);
             statement.setString(1, placa);

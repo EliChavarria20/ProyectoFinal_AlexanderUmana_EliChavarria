@@ -54,7 +54,7 @@ public class ConsultarVehiculo extends JFrame {
 
     // Método para cargar los vehículos en el modelo de la tabla
     private void cargarVehiculos(DefaultTableModel tableModel) {
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*");
              CallableStatement statement = connection.prepareCall("{CALL ConsultarVehiculo()}")) {
 
             ResultSet resultSet = statement.executeQuery();
