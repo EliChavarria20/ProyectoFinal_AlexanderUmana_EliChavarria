@@ -83,7 +83,7 @@ public class EliminarPropietario extends JFrame {
         String CedulaPropietario = txtCedulaPropietario.getText();
 
         if (CedulaPropietario.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Por favor ingrese el ID del colaborador.", "Error", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Por favor ingrese el ID del Propietario.", "Error", JOptionPane.WARNING_MESSAGE);
             return;
         }
 
