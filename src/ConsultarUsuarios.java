@@ -23,6 +23,7 @@ public class ConsultarUsuarios extends JFrame {
         JLabel lblCedula = new JLabel("Cédula:");
         txtCedula = new JTextField(20);
         JButton btnConsultar = new JButton("Consultar");
+        btnConsultar.setToolTipText("Digite la cedula del usuario a consultar.");
         panelEntrada.add(lblCedula);
         panelEntrada.add(txtCedula);
         panelEntrada.add(btnConsultar);
