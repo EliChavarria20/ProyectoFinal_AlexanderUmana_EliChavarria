@@ -125,7 +125,7 @@ public class InsertarPropietario extends JFrame {
         String apellido2 = txtApellido2.getText();
 
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root",
-                "Aiug01042004*")) {
+                "Francisco20.")) {
             String query = "{CALL InsertarPersona(?, ?, ?, ?, ?)}";
             CallableStatement statement = connection.prepareCall(query);
             statement.setString(1, Cedula);

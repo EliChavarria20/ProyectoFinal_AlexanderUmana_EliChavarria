@@ -72,7 +72,7 @@ public class ConsultarUsuarios extends JFrame {
 
         try {
             // Conectar a la base de datos
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.");
 
             // Llamar al procedimiento almacenado
             String query = "CALL ConsultarUsuarios(?);";

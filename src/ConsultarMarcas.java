@@ -47,7 +47,7 @@ public class ConsultarMarcas extends JFrame {
 
         String query = "CALL ConsultarMarca();";
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.");
              PreparedStatement statement = connection.prepareStatement(query);
              ResultSet resultSet = statement.executeQuery()) {
 

@@ -117,7 +117,8 @@ public class InsertarVehiculo extends JFrame {
 
         try {
             // Conectar a la base de datos
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal?verifyServerCertificate=false&useSSL=true", "root", "Aiug01042004*");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal?verifyServerCertificate=false&useSSL=true", "root",
+             "Francisco20.");
 
             // Llamar al procedimiento almacenado
             String query = "{CALL InsertarVehiculo(?, ?, ?, ?)}";

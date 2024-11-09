@@ -82,7 +82,7 @@ public class ActualizarMarca extends JFrame {
         String idMarca = txtIdMarca.getText();
         String marcaVehiculo = txtMarca.getText();
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.")) {
             String query = "{CALL ActualizarMarca(?, ?)}"; // Llamada al procedimiento almacenado
             CallableStatement statement = connection.prepareCall(query);
             statement.setString(1, idMarca);

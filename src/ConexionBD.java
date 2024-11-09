@@ -9,7 +9,7 @@ public class ConexionBD {
     // Configuración de la conexión a la base de datos
     private static final String URL = "jdbc:mysql://localhost:3306/proyectofinal?useSSL=false";
     private static final String USER = "root";
-    private static final String PASSWORD = "Aiug01042004*";
+    private static final String PASSWORD = "Francisco20.";
 
     // Método para obtener la conexión a la base de datos
     public static Connection obtenerConexion() {

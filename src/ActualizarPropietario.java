@@ -121,7 +121,7 @@ public class ActualizarPropietario extends JFrame {
         String apellido1 = txtApellido1.getText();
         String apellido2 = txtApellido2.getText();
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Aiug01042004*")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinal", "root", "Francisco20.")) {
             String query = "{CALL ActualizarPersona(?, ?, ?, ?, ?)}"; // Llamada al procedimiento almacenado
             CallableStatement statement = connection.prepareCall(query);
             statement.setString(1, cedula);
